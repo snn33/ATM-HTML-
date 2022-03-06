@@ -1,0 +1,31 @@
+/* Calling the staff with their ID and class and styling them */
+#firstB{
+    background-color: rgb(110, 122, 112); 
+}
+#registerdiv{
+    background-color: rgba(75, 160, 75, 0.795);
+    width: 300px;
+    height: 100px;
+    margin: 10px;
+    padding: 30px;
+
+}
+.buttonclass {
+    background-color: #008CBA;
+    color: white;
+    padding: 15px 32px;
+    }
+ .atmB {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 30px;
+    }
+ #signinB {
+    background-color: white;
+    color: black;
+    border: 2px solid #529755;
+    padding: auto;
+    }
+    #okbtn{
+        border-radius: 300%;
+    }

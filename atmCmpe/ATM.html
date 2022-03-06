@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ATM</title>
+    <link rel="stylesheet" href="atm.css"> <!--importing css file-->
+    <script src="atm.js"></script><!--importing javaScript file-->
+
+</head>
+
+<body id="firstB">
+    <div id="registerdiv"> <!--processing div area-->
+        Your Balance : <span id="resultNum"></span><br> <!--This area is for my balance amount-->
+        Amount : <span id="numberSpan"></span> <br><!--This area is for the calculating area-->
+        <button id="okbtn" onclick="okbtnfunc()">OK</button> <!--Finishes the calculating-->
+    </div>
+
+    
+    <div class="buttonC">
+        <br>
+
+        <!--Creating button for number and processing buttons-->
+        <button id="1" class="buttonclass" onclick="insert(1)">1</button>
+        <button id="2" class="buttonclass" onclick="insert(2)">2</button> 
+        <button id="3" class="buttonclass" onclick="insert(3)">3</button> <button class="atmB" id="+" onclick="operattion('+')">Deposit</button> <br> 
+        <button id="4" class="buttonclass" onclick="insert(4)">4</button>
+        <button id="5" class="buttonclass" onclick="insert(5)">5</button>
+        <button id="6" class="buttonclass" onclick="insert(6)">6</button> <button class="atmB" id="-" onclick="operattion('-')">Withdraw</button> <br>
+        <button id="7" class="buttonclass" onclick="insert(7)">7</button>
+        <button id="8" class="buttonclass" onclick="insert(8)">8</button>
+        <button id="9" class="buttonclass" onclick="insert(9)">9</button> <button class="atmB" id="a1" onclick="operattion('-')">Remittance</button> <br>
+        <button class="atmB" id="a1" onclick="operattion('/')">Pay Tax</button>
+        <button id="0" class="buttonclass" onclick="insert(0)">0</button> <button class="atmB" id="a1" onclick="blnc()">Show My balance</button>
+
+        <br>
+
+        <button class="atmB" id="a1" onclick="operattion('-')">Transaction stamp</button>
+        <br>
+    </div>
+</body>
+
+</html>
